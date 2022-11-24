@@ -53,5 +53,6 @@ def load_update(url):
   plt.title('Federal Parliment')
   plt.ylabel('party')
   plt.xlabel('area')
-  plt.savefig('./static/images/new_plot.png')
+  plt.savefig('./static/images/new_plot.png', bbox_inches='tight')
   return
+load_update(url)
