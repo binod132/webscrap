@@ -1,2 +1,5 @@
 flask
 bs4
+autoscraper
+pandas
+matplotlib
