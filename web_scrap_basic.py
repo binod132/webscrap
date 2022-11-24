@@ -38,7 +38,7 @@ parliment_party = parties[10:]
 parliment_win = win[10:]
 parliment_lead = lead[10:]
 
-##visulization  
+
 data = {'win': federal_win,
         'lead': fedearal_lead
        }
