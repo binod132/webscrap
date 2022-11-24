@@ -53,5 +53,5 @@ def load_update(url):
   plt.title('Federal Parliment')
   plt.ylabel('party')
   plt.xlabel('area')
-  plt.savefig('/Users/shantiadhikari/Desktop/MLops_demo/webscrap/static/images/new_plot.png')
+  plt.savefig('./static/images/new_plot.png')
   return
