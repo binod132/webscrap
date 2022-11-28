@@ -23,7 +23,7 @@ def load():
     url='https://election.ekantipur.com/?lng=eng'
     web_final.load_update(url)
     return render_template('index.html', name = 'Federal Parliment Update', url ='/static/images/new_plot.png', 
-            url1='/static/images/provincial_plot.png', url2 ='samanu_plot.png')
+            url2='/static/images/provincial_plot.png',url3 ='/static/images/samanu_plot.png')
 
 if __name__=="__main__":
     app.run(debug=True)
