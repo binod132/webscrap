@@ -2,7 +2,7 @@ from crypt import methods
 from flask import Flask, render_template, request, jsonify
 from bs4 import BeautifulSoup
 import requests
-import web_final
+import web_scrap_ekan
 
 app = Flask(__name__)
 
@@ -21,7 +21,7 @@ def load():
     #data=[float(x) for x in request.form.values()]
     #x=5
     url='https://election.ekantipur.com/?lng=eng'
-    web_final.load_update(url)
+    web_scrap_ekan.load_update(url)
     return render_template('index.html', name = 'Federal Parliment Update', url ='/static/images/new_plot.png', 
             url2='/static/images/provincial_plot.png',url3 ='/static/images/samanu_plot.png')
 
